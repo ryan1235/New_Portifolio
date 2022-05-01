@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+.nav_conteiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_conteiner svg{
+    font-size: 3rem;
+    color: #407AFF;
+}
+.nav_conteiner a{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: Medium;
+    color: white;
+    margin-right: 1em;
+    transition: .5s;
+}
+.nav_conteiner a:hover{
+    color: #407AFF;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.hub_coteiner{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 10em;
+    margin: 2rem;
+    margin-top: 10rem;
+    font-family: 'Oswald', sans-serif;
+}
+.hub_coteiner h1{
+    font-size: 4rem;
+    color: #407AFF;
+    margin-left: 25px;
+}
+.hub_coteiner h2{
+    animation: text 5s;
+}
+.hub_coteiner img{
+    animation: img 2s;
+}
+.btn_conteiner{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.btn_conteiner a{
+    margin-right: 2em;
+    transition: 1s;
+}
+
+.btn_conteiner a:hover{
+    opacity: .5;
+}
+
+@keyframes text {
+    0%{
+        margin-left: -600px;
+        opacity: 0;
+    }100%{
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes img {
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}

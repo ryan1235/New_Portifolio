@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+.Conteiner_experiences{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 2px #313131;
+    border-bottom: solid 2px #313131;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: Medium;
+}
+.head_experiences{
+    justify-content: center;
+    width: 50%;
+}
+
+.head_experiences svg{
+    font-size: 8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.head_experiences h3{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
