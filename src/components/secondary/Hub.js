@@ -11,11 +11,11 @@ export default function Hub() {
                 <h1 data-aos="fade-up">RYAN LUCA</h1>
                 <h2>E SOU DESENVOLVEDOR FRONT-END</h2>
                 <div className={Style.btn_conteiner}>
-                <Btn text='GitHub' href='https://github.com/ryan1235' icon={<FaGithubSquare/>} target='_blank'></Btn>
-                <Btn text='linkedin' href='https://www.linkedin.com/in/ryan-luca-839194230/' icon={<FaLinkedin/>} target='_blank'></Btn>
+                <Btn text='GitHub' href='https://github.com/ryan1235' icon={<FaGithubSquare/>}></Btn>
+                <Btn text='linkedin' href='https://www.linkedin.com/in/ryan-luca-839194230/' icon={<FaLinkedin/>}></Btn>
                 </div>
             </div>
-            <Image src='/Banner.png' width="350" height="350"></Image>
+            <Image alt='imagen do baner do site' src='/Banner.png' width="350" height="350"></Image>
         </section>
     )
 
