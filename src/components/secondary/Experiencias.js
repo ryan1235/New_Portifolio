@@ -1,4 +1,4 @@
-import ExperiencesRight from '../objects/experiencesRight'
+import ExperiencesRight from '../objects/ExperiencesRight'
 import ExperiencesLeaft from '../objects/ExperiencesLeaft'
 import Style from './styles/Experiencias.module.css'
 import { DiHtml5, DiCss3, DiJavascript, DiBootstrap, DiReact } from "react-icons/di";
