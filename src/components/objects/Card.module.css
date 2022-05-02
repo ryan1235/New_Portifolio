@@ -1,0 +1,31 @@
+.card_conteiner{
+    width: 350px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 1.5em;
+    transition: 1s;
+}
+.card_conteiner h2{
+    padding: 1em;
+}
+
+.card_conteiner p{
+    padding: 1em;
+    padding-bottom: 1em;
+}
+
+.card_conteiner a{
+    font-size: 1.5rem;
+    margin-right: 1em;
+    align-items: center;
+    border-radius: 15px;
+}
+.card_conteiner a:hover{
+    transform: scale(110%);
+}
+.card_conteiner img{
+    border-radius: 15px;
+}
+.card_conteiner a svg{
+    font-size: 1.5rem;
+}
