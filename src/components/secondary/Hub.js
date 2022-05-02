@@ -7,9 +7,9 @@ export default function Hub() {
     return(         
         <section className={Style.hub_coteiner}>
             <div>
-                <h2>OLÁ, MEU NOME É</h2>
+                <p>OLÁ, MEU NOME É</p>
                 <h1 data-aos="fade-up">RYAN LUCA</h1>
-                <h2>E SOU DESENVOLVEDOR FRONT-END</h2>
+                <p>E SOU DESENVOLVEDOR FRONT-END</p>
                 <div className={Style.btn_conteiner}>
                 <Btn text='GitHub' href='https://github.com/ryan1235' icon={<FaGithubSquare/>}></Btn>
                 <Btn text='linkedin' href='https://www.linkedin.com/in/ryan-luca-839194230/' icon={<FaLinkedin/>}></Btn>

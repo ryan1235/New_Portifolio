@@ -13,8 +13,8 @@
     color: #407AFF;
     margin-left: 25px;
 }
-.hub_coteiner h2{
-    font-size: 2.5rem;
+.hub_coteiner p{
+    font-size: 2.2rem;
     animation: text 5s;
 }
 .hub_coteiner img{
