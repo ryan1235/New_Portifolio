@@ -1,8 +1,13 @@
 import Card from '../../objects/Card'
 import Style from './Projects.module.css'
-
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Projects() {
+    useEffect(()=>{
+        Aos.init({duration: 1500})
+    }, [])
     return(
         <main data-aos="fade-up" className={Style.projects_conteiner}>
             <h1>Meus Projetos</h1>
