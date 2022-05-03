@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 .Conteiner_experiences{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     border-top: solid 2px #313131;
     border-bottom: solid 2px #313131;
     font-family: 'Roboto Mono', monospace;
     font-weight: Medium;
     padding: 1em;
 }
+.text{ 
+    width: 80%;
+}
 .head_experiences{
-    width: 50%;
+    width: 20%;
     justify-content: center;
 }
 
@@ -24,5 +27,10 @@
     font-size: 3rem;
     width: 100%;
     text-align: center;
+}
+
+@media only screen and (max-width: 730px) {
+    .text{width: 100%; text-align: center;}
+    .head_experiences {width: 100%; text-align: center;}
 }
 

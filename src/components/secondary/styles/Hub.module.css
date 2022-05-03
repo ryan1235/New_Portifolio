@@ -2,7 +2,7 @@
 
 .hub_coteiner{
     display: flex;
-    font-size: 1.5rem;
+    flex-wrap: wrap-reverse;
     gap: 3em;
     margin: 2rem;
     margin-top: 10rem;
@@ -49,4 +49,12 @@
     }100%{
         opacity: 1;
     }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hub_coteiner{ margin: 0; align-items: center;}
+    .hub_coteiner p{ font-size: 1.5rem;}
+    .img{ width: 100%; text-align: center; }
+    .text{ width: 100%; text-align: center; }
+    .btn_conteiner a{ font-size: 1.4rem; }
 }

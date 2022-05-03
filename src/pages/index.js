@@ -7,10 +7,13 @@ import styles from '../styles/Global.module.css'
 export default function Home() {
   return (
     <div className={styles.conteiner}>
+      <div>
       <NewHeader></NewHeader>
       <Navbar></Navbar>
       <Main></Main>
       <Footer></Footer>
+      </div>
+
     </div>
   )
 }

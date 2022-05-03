@@ -9,7 +9,10 @@ export default function ExperiencesRight({ icon, title, text }) {
                 {icon}
                 <h3>{title}</h3>
             </div>
-            <p>{text}</p>
+            <div className={Style.text}>
+              <p>{text}</p>  
+            </div>
+            
         </div>
     )
 
