@@ -14,4 +14,5 @@ Meu segundo Portfolio, com um pouco mais de experiencia refiz meu Portifolio usa
 https://www.ryanluca.tech/blog/segundo-portifolio
 
 ![SegundoPorfolio1](https://user-images.githubusercontent.com/58185393/177170184-0dba152e-57b4-4c4c-96ef-cf62b3ad6e3f.gif)
+<br/>
 ![SegundoPorfolio2](https://user-images.githubusercontent.com/58185393/177170188-98bf5fa2-9701-49a2-ba91-9f5afee1801e.gif)
